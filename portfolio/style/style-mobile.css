@@ -17,7 +17,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: ;
+    overflow: visible;
 
     padding: 10px;
 }
@@ -37,7 +37,26 @@ header h1.logo a:hover{
     border-color: blueviolet;
 }
 
+header menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
+    margin-top: 0px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+header menu span#menu-icon{
+    font-size: 40px;
+ 
+}
+
+ header menu ul{
+    margin-top: 0px;
+    display: none;
+ }
 
 header menu ul li a{
     color: white;
@@ -48,4 +67,81 @@ header menu ul li a{
     border-radius: 5px;
     margin: 5px 0;
     padding: 5px;
+}
+
+header menu ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+main section.fist{
+    background-color: blueviolet;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section.fist h1{
+    font-size: 3.7em;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main section.fist p{
+    font-size: 2em;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+main section.about-me{
+    background-color: black;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+main section.about-me div.text{
+    display: block;
+    background-color: white;
+
+    margin: auto;
+    max-width: 70vh;
+    padding: 20px;
+    border-radius: 20px;
+}
+main section.about-me div.text h1{
+    text-align: center;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section.about-me div.text p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+main section.about-me div.text div.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+main section.about-me div.text div.icons a.icon{
+    display: block;
+    height: 40px;
+    width: 40px;
 }
