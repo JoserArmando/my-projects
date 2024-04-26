@@ -9,32 +9,42 @@ header{
     background-color: black;
     color: white;
 
-    max-height: 45px;
+    padding: 1px 5px;
+    height: 40px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: visible;
+    
+    
+}
 
-    padding: 10px;
+header h1.logo{
+    display: flex;
+    align-items: center;
 }
 
 header h1.logo a{
-    border: 2px solid white;
-    border-radius: 50%;
-
-    padding: 6px;
-
+    font-size: 17px;
     text-decoration: none;
     color: white;
+
+    border: 1.5px solid white;
+    border-radius: 50%;
+    padding: 3px;
+
+    transition: 0.3s;
 }
 
 header h1.logo a:hover{
     color: blueviolet;
     border-color: blueviolet;
+}
+
+header h1.title{
+    font-size: 16px;
 }
 
 header menu{
@@ -49,8 +59,16 @@ header menu{
 }
 
 header menu span#menu-icon{
-    font-size: 40px;
- 
+    font-size: 25px;
+
+    transition: 0.3s;
+}
+
+header menu span#menu-icon:hover{
+    color: blueviolet;
+    border-color: blueviolet;
+
+    cursor: pointer;
 }
 
  header menu ul{
@@ -86,7 +104,7 @@ main section.fist{
 }
 
 main section.fist h1{
-    font-size: 3.7em;
+    font-size: 2em;
     font-variant: small-caps;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
@@ -96,7 +114,7 @@ main section.fist h1{
 }
 
 main section.fist p{
-    font-size: 2em;
+    font-size: 1em;
     font-variant: small-caps;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -104,12 +122,34 @@ main section.fist p{
     padding-top: 0px;
 }
 
+main section.fist div.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+main section.fist div.icons a.icon{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+main section.fist div.icons a.icon img{
+    transition: 0.3s;
+}
+
+main section.fist div.icons a.icon img:hover{
+    filter: brightness(0) invert(1);
+}
+
 
 main section.about-me{
     background-color: black;
     display: block;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 main section.about-me div.text{
@@ -118,30 +158,23 @@ main section.about-me div.text{
 
     margin: auto;
     max-width: 70vh;
-    padding: 20px;
     border-radius: 20px;
 }
 main section.about-me div.text h1{
     text-align: center;
-    margin: 10px 0;
+    padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
 }
 
 main section.about-me div.text p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 25px;
+    line-height: 15px;
+    font-size: 0.8em;
+
+    padding: 10px 20px;
 }
 
-main section.about-me div.text div.icons{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-}
 
-main section.about-me div.text div.icons a.icon{
-    display: block;
-    height: 40px;
-    width: 40px;
-}
+
