@@ -31,9 +31,11 @@ header h1.logo a{
     text-decoration: none;
     color: white;
 
-    border: 1.9px solid white;
+    border: 2px solid white;
     border-radius: 50%;
-    padding: 6px;
+    padding: 7px;
+
+    text-decoration: underline;
 
     transition: 0.3s;
 }
@@ -59,7 +61,7 @@ header menu{
 }
 
 header menu span#menu-icon{
-    font-size: 2em;
+    font-size: 2.5em;
 
     transition: 0.3s;
 }
