@@ -9,8 +9,8 @@ header{
     background-color: black;
     color: white;
 
-    padding: 1px 5px;
-    height: 40px;
+    padding: 1px 15px;
+    height: 60px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -27,13 +27,13 @@ header h1.logo{
 }
 
 header h1.logo a{
-    font-size: 17px;
+    font-size: 0.8em;
     text-decoration: none;
     color: white;
 
-    border: 1.5px solid white;
+    border: 1.9px solid white;
     border-radius: 50%;
-    padding: 3px;
+    padding: 6px;
 
     transition: 0.3s;
 }
@@ -44,7 +44,7 @@ header h1.logo a:hover{
 }
 
 header h1.title{
-    font-size: 16px;
+    font-size: 1.6em;
 }
 
 header menu{
@@ -59,7 +59,7 @@ header menu{
 }
 
 header menu span#menu-icon{
-    font-size: 25px;
+    font-size: 2em;
 
     transition: 0.3s;
 }
@@ -104,7 +104,7 @@ main section.fist{
 }
 
 main section.fist h1{
-    font-size: 2em;
+    font-size: 3em;
     font-variant: small-caps;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
@@ -114,12 +114,9 @@ main section.fist h1{
 }
 
 main section.fist p{
-    font-size: 1em;
+    font-size: 1.6em;
     font-variant: small-caps;
     font-family: Arial, Helvetica, sans-serif;
-
-    margin-top: 0px;
-    padding-top: 0px;
 }
 
 main section.fist div.icons{
@@ -132,8 +129,7 @@ main section.fist div.icons{
 
 main section.fist div.icons a.icon{
     display: block;
-    height: 30px;
-    width: 30px;
+    width: 45px;
 }
 
 main section.fist div.icons a.icon img{
@@ -164,14 +160,14 @@ main section.about-me div.text h1{
     text-align: center;
     padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    font-size: 2em;
 }
 
 main section.about-me div.text p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 15px;
-    font-size: 0.8em;
+    line-height: 30px;
+    font-size: 1em;
 
     padding: 10px 20px;
 }
