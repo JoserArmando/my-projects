@@ -56,13 +56,17 @@ header menu{
 
     margin-top: 0px;
     background-color: black;
-    padding: 5px;
+    padding: 0px;
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    width: 100px;
 }
 
 header menu span#menu-icon{
+    margin: 10px;
+    
     font-size: 2.5em;
-
     transition: 0.3s;
 }
 
@@ -74,8 +78,7 @@ header menu span#menu-icon:hover{
 }
 
  header menu ul{
-    margin-top: 0px;
-    display: none;
+    margin-top: 5px;
  }
 
 header menu ul li a{
@@ -87,6 +90,7 @@ header menu ul li a{
     border-radius: 5px;
     margin: 5px 0;
     padding: 5px;
+    text-align: center;
 }
 
 header menu ul li a:hover{

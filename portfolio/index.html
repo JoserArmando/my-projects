@@ -15,11 +15,24 @@
         <h1 class="title">portfolio</h1>
         <menu>
             <span id="menu-icon" class="material-symbols-outlined">menu</span>
-            <ul>
-                <li><a href="#">about me</a></li>
+            <ul id="listMenu">
+                <li><a href="#" target="id-about-me">about me</a></li>
                 <li><a href="#">skills</a></li>
                 <li><a href="#">projects</a></li>
             </ul>
+
+            <script>
+                var menuIcon = document.querySelector('span#menu-icon')
+                menuIcon.addEventListener("click", clicar)
+                function clicar(){
+                    var list = document.querySelector('ul#listMenu')
+                    if(list.style.display == 'block'){
+                        list.style.display = 'none'
+                    }else{
+                        list.style.display = 'block'
+                    }
+                }
+            </script>
         </menu>
     </header>
     <main>
@@ -34,8 +47,9 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
                 </a>
             </div>
+            
         </section>
-        <section class="about-me">
+        <section class="about-me" id="id-about-me">
             <div class="text">
                 <h1>About Me</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis libero, earum, impedit minima autem quibusdam assumenda, distinctio repellat odit quam facere cupiditate velit. Adipisci eius soluta aspernatur, quidem eum praesentium!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, numquam rerum! Possimus dolorem harum doloremque, fuga veritatis adipisci ipsa voluptate tempora magnam esse id aliquid iure earum ut! Inventore, harum!
