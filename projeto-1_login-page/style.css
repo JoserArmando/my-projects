@@ -74,6 +74,7 @@ label{
     border-radius: 20px;
     background-color: blue;
     color: white;
+    margin-bottom: 55px;
 }
 #but1:hover{
     width: 170px;
