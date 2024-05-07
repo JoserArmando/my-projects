@@ -1,0 +1,36 @@
+@media screen and (min-width: 767px) {
+    #login{
+        width: 45vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #img{
+        background-image: url(imagem/transferir.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width:100px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    #login{
+        
+    }
+    #formulario{
+
+    }
+    #inputs input{
+        width: 300px;
+    }
+    #buttons{
+        display: flex;
+    }
+    #buttons input, a{
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    #buttons input{
+        margin-right: ;
+    }
+}

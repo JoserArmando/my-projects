@@ -7,7 +7,7 @@ function registro(){
     var email = document.getElementById("email1").value;
     var senha = document.getElementById("senha").value;
 
-    if(email1 === ""){
+    if(email === ""){
         alert("adicione um nome");
     }else{
         msg.innerHTML = "tudo certo";

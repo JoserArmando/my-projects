@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#login{
+    background-color: rgb(241, 241, 241);
+    height: 400px;
+    width: 250px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
+}
+#title{
+    margin-bottom: px;
+    cursor: pointer;
+}
+#msg{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+#inputs input{
+    display: block;
+    padding: 7px;
+    border: 1px solid rgba(95, 95, 95, 0.932);
+    background-color: transparent;
+}
+#inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#buttons input, a{
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+#buttons input{
+    margin: 15px auto;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 30px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#buttons input:hover{
+    background-color: transparent;
+    color: blueviolet;
+}
+#buttons a:hover{
+    text-decoration: underline;
+}
+.iten{
+    flex-grow: 1;
+    display: block;
+}

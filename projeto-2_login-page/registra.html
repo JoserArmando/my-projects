@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registra-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-regs.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <div class="container">
+        
+            <div class="container" id="login">
+                <div id="img"></div>
+                <div>
+                    <div id="title">
+                        <h1>Crie sua Conta</h1>
+                    </div id="formulario">
+                    <div id="msg"></div>
+                    <form  action="javascript:void(0)" method="post" onsubmit="return validarFormularioRegs()">
+                        <div id="inputs">
+                            <input type="text" placeholder="Nome" id="nome">
+                            <input type="email" name="email" id="email" placeholder="Email"class="iten">
+                            <input type="password" name="senha" id="senha" placeholder="Senhar"
+                            class="iten">
+                            <input type="password" id="rep-senha" placeholder="Confirmar Senhar">
+                        </div>
+                        <div id="buttons">
+                            <input type="submit" value="Registra-se" id="regis"
+                            class="iten">
+                            <a href="login.html" id="regis" class="iten">Iniciar Sessão</a>
+                            
+                            
+                        </div>
+                        <input type="hidden" name="csrf_token" id="csrf_token" value="token_gerado_pelo_servidor">
+                    </form>
+                </div>
+            </div>
+    </div>
+    <script src="validação-regs.js"></script>
+</body>
+</html>

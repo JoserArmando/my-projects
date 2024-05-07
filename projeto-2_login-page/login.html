@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <div class="container">
+        
+            <div class="container" id="login">
+                <div id="img"></div>
+                <div>
+                    <div id="title">
+                        <h1>Login</h1>
+                    </div id="formulario">
+                    <div id="msg"></div>
+                    <form  action="javascript:void(0)" method="post" onsubmit="return validarFormulario()">
+                        <div id="inputs">
+                            <input type="email" name="email" id="email" placeholder="Email"class="iten">
+                            <input type="password" name="senha" id="senha" placeholder="Senha"
+                            class="iten">
+                        </div>
+                        <div id="buttons">
+                            <input type="submit" value="Iniciar Sessão" id="loga"
+                            class="iten">
+                            <a href="registra.html" id="regis" class="iten">Registra-se</a>
+                        </div>
+                        <input type="hidden" name="csrf_token" id="csrf_token" value="token_gerado_pelo_servidor">
+                    </form>
+                </div>
+            </div>
+    </div>
+    <script src="validação.js"></script>
+</body>
+</html>

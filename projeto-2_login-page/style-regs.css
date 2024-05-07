@@ -1,0 +1,12 @@
+#title{
+    font-size: 0.8em;
+}
+#login{
+    height: 450px;
+    background-color: rgba(103, 113, 255, 0.514);
+}
+#inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
