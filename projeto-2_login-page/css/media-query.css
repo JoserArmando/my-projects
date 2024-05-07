@@ -6,7 +6,7 @@
         justify-content: space-evenly;
     }
     #img{
-        background-image: url(imagem/transferir.png);
+        background-image: url(../imagem/transferir.png);
         background-size: contain;
         background-repeat: no-repeat;
         height: 100px;
